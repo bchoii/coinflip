@@ -1,32 +1,10 @@
 <template>
-  <CThemeProvider>
-    <CReset />
-    <a href="login">Login</a>
-  </CThemeProvider>
-</template>
-
-<script lang="js">
-import { CBox, CButton } from '@chakra-ui/vue'
-import { CThemeProvider, CReset } from '@chakra-ui/vue'
-
-export default {
-  name: 'App',
-  components: {
-    CBox,
-    CButton
-  }
-}
-</script>
-<template>
   <div>
     <div class="background"></div>
     <div class="fullscreen centered">
-      <form action="admin">
-        <h3>Login</h3>
-        <input />
-        <button>Login</button>
-      </form>
-      <a href="signup">Signup</a>
+      <div>
+        <h3>Admin Page</h3>
+      </div>
     </div>
   </div>
 </template>
